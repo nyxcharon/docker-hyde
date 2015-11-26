@@ -5,7 +5,7 @@ Simple docker container with hyde + goodies for development.
 
 ```
 cd /path/to/code
-docker run -it  -p 8080:8080 -v $(pwd):/code hyde bash
+docker run -it  -p 8080:8080 -v $(pwd):/code nyxcharon/docker-hyde bash
   -> hyde gen
   -> hyde serve
 ```
